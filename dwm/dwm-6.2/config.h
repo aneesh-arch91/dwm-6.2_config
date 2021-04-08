@@ -1,7 +1,7 @@
 #include <X11/XF86keysym.h>
-static const char *upvol[]   = { "/bin/sh", "/home/ar-arch/build/dwm-6.2/scripts/upvol.sh", NULL };
-static const char *downvol[] = { "/bin/sh", "/home/ar-arch/build/dwm-6.2/scripts/downvol.sh", NULL };
-static const char *mutevol[] = { "/bin/sh", "/home/ar-arch/build/dwm-6.2/scripts/mute.sh", NULL };
+static const char *upvol[]   = { "/bin/sh", "/home/ar-arch/build/dwm-6.2_config/dwm/dwm-6.2/scripts/upvol.sh", NULL };
+static const char *downvol[] = { "/bin/sh", "/home/ar-arch/build/dwm-6.2_config/dwm/dwm-6.2/scripts/downvol.sh", NULL };
+static const char *mutevol[] = { "/bin/sh", "/home/ar-arch/build/dwm-6.2_config/dwm/dwm-6.2/scripts/mute.sh", NULL };
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
@@ -10,7 +10,7 @@ static const unsigned int gappx     = 8;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "SF UI Display:size=12" };
+static const char *fonts[]          = { "FreeSans:size=12" };
 static const char dmenufont[]       = "SF UI Display:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
