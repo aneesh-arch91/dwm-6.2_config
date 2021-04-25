@@ -1,1 +1,1 @@
-pamixer --set-volume 0;pkill -RTMIN+10 dwmblocks
+pamixer -m;pkill -RTMIN+10 dwmblocks

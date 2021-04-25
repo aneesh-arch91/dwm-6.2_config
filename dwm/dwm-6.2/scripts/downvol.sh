@@ -1,1 +1,1 @@
-pamixer -d 5;pkill -RTMIN+10 dwmblocks
+pamixer -u;pamixer -d 5;pkill -RTMIN+10 dwmblocks
